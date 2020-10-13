@@ -128,10 +128,3 @@ predictions = svc.predict(X_validation)
 print(accuracy_score(Y_validation, predictions))
 print(confusion_matrix(Y_validation, predictions))
 print(classification_report(Y_validation, predictions))
-
-
-
-
-
-
-# https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
